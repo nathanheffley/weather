@@ -1,8 +1,17 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 2rem;
+}
+
+.hourly + .hourly {
+  margin-left: 1rem;
+}
+
+div + h2 {
+  margin-top: 1rem;
 }
