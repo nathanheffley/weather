@@ -38,7 +38,7 @@ function App() {
       .then(data => {
         setAlerts(data.features)
       })
-  })
+  }, [coords])
 
   useEffect(() => {
     if (point === null) return
